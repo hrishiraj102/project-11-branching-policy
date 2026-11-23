@@ -5,5 +5,8 @@ resource "aws_s3_bucket" "project11" {
     Name        = "Project-11-Branching-Policy"
     Environment = "Dev"
     ManagedBy   = "Terraform"
+    Owner       = "DevOps-Team"
+    Department  = "Infrastructure"
+    Project     = "Marsh-Capstone"
   }
 }
